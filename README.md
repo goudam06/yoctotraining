@@ -1,0 +1,2 @@
+# yoctotraining
+Recipes for yocto
