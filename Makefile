@@ -7,7 +7,7 @@ LDFLAGS=
 DESTDIR=
 BINDIR=/usr/bin
 
-SOURCES=hello.c helloprint.c
+SOURCES=hello.c helloworld.c
 OBJECTS=$(SOURCES:.c=.o)
 
 EXECUTABLE=hellomake
