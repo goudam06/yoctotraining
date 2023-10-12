@@ -10,7 +10,7 @@ BINDIR=/usr/bin
 SOURCES=hello.c helloworld.c
 OBJECTS=$(SOURCES:.c=.o)
 
-EXECUTABLE=hellomake
+EXECUTABLE=helloremotetar
 
 .cpp: .o
 	$(CC) $(CFLAGS) $< -o $@
